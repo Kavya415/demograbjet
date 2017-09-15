@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GrabJet</title>
+    <meta name="description" content="">
+    <meta name="author" content="Kavya Sree">
+
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+
+</head>
+<body>
+
+<div class="main-wrap">
+    <div id="chartdiv"></div>
+    <div class="panel-container">
+        <div class="clip-triangle">
+            <h1 class="logo"><img src="images/logo.png" class="img-responsive"></h1><br>
+            <p class="main-content">GrabJet is a new transportation service
+                that offers passengers a fast and reliable way to fly within the 6 countries at the comfort
+                of a private jet. Booking for a Jet is only available for advanced booking.
+                Passengers can easily request for a ride and a private jet will arrive for pick up.</p>
+            <button class="main-button">Make an Advanced Booking</button>
+        </div>
+    </div>
+</div>
+
+<div class="booking-wrap">
+    <div class="navbar">
+        <div class="nav-right">
+            <a href="#">GrabCopter</a>
+            <a href="#">GrabCruise</a>
+            <a href="#">GrabLimo</a>
+        </div>
+    </div>
+
+    <div class="jet-img-wrap"><br><br>
+        <div class="jet"><img src="images/grabjetsmall.png" class="img-responsive"></div>
+    </div><br>
+
+    <div class="content">
+        <div class="info-box"><br>
+
+            <div class="pick-up">
+                <h5>PICK UP</h5>
+                <select>
+                    <option>2nd Country Airport</option>
+                    <option selected>Changi Airpot Private Terminal</option>
+                    <option>3rd Country Airport</option>
+                    <option>4th Country Airport</option>
+                    <option>5th Country Airport</option>
+                    <option>6th Country Airport</option>
+                </select>
+            </div><hr>
+
+            <div class="drop-off">
+                <h5>DROP OFF</h5>
+                <select>
+                    <option selected>Phuket Island Airport</option>
+                    <option>Changi Airpot Private terminal</option>
+                    <option>3rd Country Airport</option>
+                    <option>4th Country Airport</option>
+                    <option>5th Country Airport</option>
+                    <option>6th Country Airport</option>
+                </select>
+            </div><hr>
+
+            <div class="schedule">
+                <div class="premium-service">
+                    <select>
+                        <option >Flight Attendant (+ $300)</option>
+                        <option>Full Kitchen (+ $100)</option>
+                        <option>Massage (+ $50)</option>
+                        <option selected>Jacuzzi (+ $180)</option>
+                    </select>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </div>
+                <div class="seperator"></div>
+                <div class="calender">
+                    Journey Date :<br>
+                    <input type="date">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="clouds-wrap">
+        <div class="green-clouds"></div>
+        <div class="white-clouds"></div>
+    </div>
+
+    <div class="wrap"><br><br>
+        <div class="request-button">
+            <p class="txt">Request a Jet</p>
+            <p class="value">$199</p>
+        </div>
+        <br>
+
+        <div class="content-container">
+            <div class="col-1">
+                <div class="dollar">
+                    <i class="fa fa-usd fa-3x" aria-hidden="true"></i>
+                </div><br>
+                <div class="col-1-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed orci sit amet magna pharetra facilisis quis at elit. Proin sed tellus hendrerit, lobortis massa eu, laoreet.</p>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="plane">
+                    <i class="fa fa-plane fa-3x" aria-hidden="true"></i>
+                </div><br>
+                <div class="col-2-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed orci sit amet magna pharetra facilisis quis at elit. Proin sed tellus hendrerit, lobortis massa eu, laoreet.</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="like">
+                    <i class="fa fa-thumbs-o-up fa-3x" aria-hidden="true"></i>
+                </div><br>
+                <div class="col-3-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed orci sit amet magna pharetra facilisis quis at elit. Proin sed tellus hendrerit, lobortis massa eu, laoreet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-navbar">
+                    <a href="#home">Home</a>
+                    <a href="#news">News</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="copyright">
+                    <p>Copyright Grab.com 2017. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+</div>
+
+
+
+<script type="text/javascript" src="jquery.js"></script>
+<script src="ammap.js"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+<script src="themecolour.js"></script>
+<script type="text/javascript" src="wow.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
